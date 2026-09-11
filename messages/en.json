@@ -1,0 +1,259 @@
+{
+  "Metadata": {
+    "title": "DuoTyping — your writing buddy that never rewrites you",
+    "description": "DuoTyping catches grammar and tone slips in any Mac app and shows you the fix."
+  },
+  "AnnouncementBar": {
+    "badge": "New",
+    "text": "Domain-aware tone calibration for legal, medical & client work just shipped.",
+    "cta": "See what's new"
+  },
+  "Header": {
+    "brand": "DuoTyping",
+    "navHow": "How it works",
+    "navFeatures": "Features",
+    "navPricing": "Pricing",
+    "navFaq": "FAQ",
+    "signIn": "Sign in",
+    "download": "Download for macOS"
+  },
+  "Hero": {
+    "eyebrow": "DuoTyping · lives in your menu bar on macOS",
+    "headlinePrefix": "Your writing buddy that",
+    "phrases": [
+      "never rewrites you.",
+      "keeps your voice.",
+      "fixes, never flattens.",
+      "stays out of your way.",
+      "never sounds like AI.",
+      "catches what you missed.",
+      "runs on your Mac only.",
+      "suggests, you decide.",
+      "works in every app.",
+      "gets out of the way."
+    ],
+    "subtitle": "DuoTyping catches grammar and tone slips in any Mac app and shows you the fix — one keypress to accept, nothing changes until you say so.",
+    "download": "Download for macOS",
+    "watchDemo": "Watch the 40s demo",
+    "footnote": "MACOS 14+ · APPLE SILICON ONLY · RUNS LOCALLY BY DEFAULT"
+  },
+  "DemoWidget": {
+    "badge": "⌥ SPACE · SUGGESTIONS",
+    "youTyped": "What you typed",
+    "suggestions": "DuoTyping's suggestions",
+    "acceptedNote": "3 suggestions accepted with ⌥ Space · nothing sent without you",
+    "flaggedRunOn": "run-on flagged",
+    "flaggedTone": "tone flagged",
+    "flaggedStructure": "structure flagged",
+    "scenarios": [
+      {
+        "label": "Message to Marcus",
+        "messy": "hey marcus quick one - launch is slipping, not friday, monday now. legal still hasnt signed off on the terms page and i dont want to commit to a date until they do. will get you a proper timeline thursday eod. sorry for the churn its been a messy week here",
+        "clean": "Hi Marcus — quick update. The launch is slipping from Friday to Monday. Legal hasn't signed off on the terms page yet, and I don't want to commit to a date until they have. I'll get you a firm timeline by end of day Thursday. Apologies for the churn."
+      },
+      {
+        "label": "Slack #eng-standup",
+        "messy": "so the migration script worked on staging but its throwing a null pointer on prod, think its the null check on the user id field, gonna dig in more after lunch but wanted to flag it now",
+        "clean": "The migration script worked on staging but throws a null pointer on prod — looks like the null check on the user ID field. I'll dig in more after lunch, just wanted to flag it now."
+      },
+      {
+        "label": "Client proposal.docx",
+        "messy": "we recommend moving forward with phase 2 asap, the data clearly shows engagement is up and theres no reason to wait on this, we should of started last quarter honestly",
+        "clean": "We recommend moving forward with Phase 2 as soon as possible. The data clearly shows engagement is up, and there's no reason to wait. In hindsight, we should have started last quarter."
+      },
+      {
+        "label": "Legal — NDA redline",
+        "messy": "the counterparty wants a carve out for stuff they already knew before the meeting, which is pretty standard, but the definition of confidential info in section 2 is way to broad rn",
+        "clean": "The counterparty wants a carve-out for information they already knew before the meeting, which is standard. That said, the definition of confidential information in Section 2 is currently too broad."
+      },
+      {
+        "label": "Discharge summary — draft",
+        "messy": "pt tolerated procedure well, no complications noted, advised to follow up in 2 weeks and continue current meds unless symptoms worsen in which case go to er",
+        "clean": "Patient tolerated the procedure well with no complications noted. Advised to follow up in two weeks and continue current medications, unless symptoms worsen — in which case, go to the ER."
+      },
+      {
+        "label": "Cover letter draft",
+        "messy": "im really excited about this role because i have alot of experience in customer facing positions and i think my background in retail would translate good to this job",
+        "clean": "I'm excited about this role because I have a lot of experience in customer-facing positions, and I think my background in retail would translate well to this job."
+      },
+      {
+        "label": "Xcode — PR comment",
+        "messy": "this function does to much, its fetching data AND formatting it AND rendering, should probably split this into three seperate functions before we merge",
+        "clean": "This function does too much — it's fetching data, formatting it, and rendering, all in one place. We should split it into three separate functions before we merge."
+      },
+      {
+        "label": "Notion — meeting notes",
+        "messy": "action items from today: sarah is gonna reach out to the vendor, we need to decide on pricing by friday, and someone should double check the contract language before we send it back",
+        "clean": "Action items from today: Sarah will reach out to the vendor, we need to decide on pricing by Friday, and someone should double-check the contract language before we send it back."
+      },
+      {
+        "label": "Reddit — r/smallbusiness",
+        "messy": "just wanted to share that switching to a 4 day work week actually increased our output, alot of people were skeptical at first but the data speaks for itself at this point",
+        "clean": "Just wanted to share that switching to a 4-day work week actually increased our output. A lot of people were skeptical at first, but the data speaks for itself at this point."
+      },
+      {
+        "label": "Tinder — first message",
+        "messy": "hey! saw you like hiking too, whats the best trail youve done this year? im always looking for new ones near the city",
+        "clean": "Hey! Saw you like hiking too — what's the best trail you've done this year? I'm always looking for new ones near the city."
+      }
+    ]
+  },
+  "LogoMarquee": {
+    "builtFor": "Built for",
+    "logos": ["Legal", "Medical", "Client services", "Non-native English writers", "Engineers", "Indie founders"]
+  },
+  "StatsCompare": {
+    "heading": "Most editing anxiety is the reread.",
+    "headingHighlight": "DuoTyping catches it first.",
+    "body": "Measured across a week of real email and Slack messages: the share of grammar and tone issues caught before send, self-editing alone versus with DuoTyping flagging them as you type.",
+    "editingYourself": "Editing it yourself",
+    "withDuoTyping": "With DuoTyping"
+  },
+  "HowItWorks": {
+    "eyebrow": "How it works",
+    "heading": "One shortcut,",
+    "headingHighlight": "every Mac app.",
+    "steps": [
+      {
+        "num": "01",
+        "title": "Write it badly, fast",
+        "body": "Get the thought down without editing as you go. Typos, run-ons, no punctuation — that is the input DuoTyping expects.",
+        "lines": ["legal hasnt signed off yet", "dont want to commit to a date", "will send timeline thurs"]
+      },
+      {
+        "num": "02",
+        "title": "Hit ⌥ Space",
+        "body": "One system-wide shortcut, anywhere your cursor is. DuoTyping shows you what is off — grammar, tone, structure — and you decide what to accept.",
+        "lines": ["⌥ Space   show suggestions", "↵   accept one", "⌘ ⇧ Space   ask for a paraphrase"]
+      },
+      {
+        "num": "03",
+        "title": "Stays on your Mac",
+        "body": "Detection runs locally with zero network entitlement — your text cannot leave the machine even in principle. Cloud AI is opt-in, with your own key.",
+        "lines": ["Mail · Slack · Notes · Pages", "Notion · Linear · Xcode", "any text field on the system"]
+      }
+    ]
+  },
+  "Features": {
+    "heading": "Built around",
+    "headingHighlight": "how you work.",
+    "items": [
+      {
+        "tag": "PRIVACY",
+        "title": "Local by default",
+        "body": "Detection runs on a bundled local model with zero network entitlement at the OS level. Nothing leaves your Mac unless you turn on Cloud AI yourself."
+      },
+      {
+        "tag": "CONTROL",
+        "title": "Suggests, never rewrites",
+        "body": "Every fix is visible before it happens. Accept what is right with one keypress, skip the rest — DuoTyping never silently changes what you wrote."
+      },
+      {
+        "tag": "CONTEXT",
+        "title": "Tone by domain",
+        "body": "A legal email and a Slack message do not get the same advice. DuoTyping calibrates suggestions to the app and audience you are writing for."
+      },
+      {
+        "tag": "GROWTH",
+        "title": "Aims to fade",
+        "body": "A coaching layer tracks the patterns you keep repeating, so the goal is needing DuoTyping less over time — not more."
+      }
+    ]
+  },
+  "PrivacySection": {
+    "heading": "Your writing",
+    "headingHighlight": "stays yours.",
+    "body": "Detection runs locally with zero network entitlement at the sandbox level — that's not a settings toggle, your text can't leave the Mac even in principle. Turn on Cloud AI with your own API key only when you want heavier paraphrasing.",
+    "link": "Read how the sandbox works",
+    "certs": ["ZERO NETWORK ENTITLEMENT", "ON-DEVICE MODEL", "BYO CLOUD KEY, OPT-IN", "NO TRAINING ON YOUR TEXT"]
+  },
+  "Testimonials": {
+    "eyebrow": "Early access, real reactions",
+    "heading": "From the first",
+    "headingHighlight": "people using it.",
+    "featuredQuote": "I stopped rereading emails five times before hitting send. It flags what's actually off and gets out of the way.",
+    "featuredStatCpuValue": "<1%",
+    "featuredStatCpuLabel": "CPU while idling in the menu bar",
+    "featuredStatNetworkValue": "0",
+    "featuredStatNetworkLabel": "network calls, unless you opt in",
+    "featuredCta": "Read the story",
+    "quotes": [
+      {
+        "text": "I can't paste client contracts into a cloud tool. This is the first grammar assistant that doesn't ask me to.",
+        "name": "Priya Raman",
+        "role": "Legal ops",
+        "initials": "PR"
+      },
+      {
+        "text": "English isn't my first language. DuoTyping tells me when a sentence reads off before I send it, not after someone replies confused.",
+        "name": "Daniel Okafor",
+        "role": "Product manager",
+        "initials": "DO"
+      },
+      {
+        "text": "It lives in the menu bar and checks Xcode comments, which nothing else on my Mac does.",
+        "name": "Lena Fischer",
+        "role": "Staff engineer",
+        "initials": "LF"
+      }
+    ]
+  },
+  "Pricing": {
+    "heading": "Buy once.",
+    "headingHighlight": "No subscription.",
+    "plans": [
+      { "name": "Free", "price": "$0", "body": "Local detection, a daily suggestion limit, no time limit on the trial.", "cta": "Download" },
+      { "name": "Full license", "price": "$49", "body": "Unlimited local detection, forever, on one Mac. No subscription, free updates.", "cta": "Buy once" },
+      { "name": "Cloud AI", "price": "BYO key", "body": "Turn on heavier paraphrasing with your own API key. You pay the provider directly, nothing extra to us.", "cta": "Learn more" }
+    ]
+  },
+  "Faq": {
+    "heading": "Good",
+    "headingHighlight": "questions.",
+    "items": [
+      {
+        "q": "Which apps does it work in?",
+        "a": "Every app on your Mac. DuoTyping reads and corrects text wherever your cursor is, so there is nothing to integrate — Mail, Slack, Notes, Notion, Pages, Xcode, your terminal, any browser text field."
+      },
+      {
+        "q": "Is there a Windows, iPhone or web version?",
+        "a": "Not yet, and there's no Windows beta right now. DuoTyping is macOS-only on purpose: a sandboxed local model, Apple Silicon inference and zero network entitlement are what make the privacy story structural instead of a marketing claim."
+      },
+      {
+        "q": "What does it need to run?",
+        "a": "macOS 14 or later, on Apple Silicon. Intel Macs aren't supported — the local model needs Apple Silicon to run fast enough to feel instant. It's a native app that idles at well under 1% CPU."
+      },
+      {
+        "q": "Does it rewrite my writing for me?",
+        "a": "No — it never rewrites silently. DuoTyping detects grammar, tone and structure issues and shows you the fix; accepting is always one keypress you choose to make. Heavier paraphrasing is a separate, opt-in step using your own Cloud AI key."
+      },
+      {
+        "q": "Will it flatten my writing into AI voice?",
+        "a": "That's the failure mode we designed against. Suggestions fix grammar, run-ons and tone mismatches — they don't rewrite your word choices for you. Paraphrasing only happens if you explicitly ask for it."
+      },
+      {
+        "q": "Is my writing private?",
+        "a": "Detection runs locally by default with zero network entitlement at the sandbox level — your text can't leave the Mac even in principle, not because of a setting you could get wrong. Cloud AI is opt-in, uses your own API key, and nothing is stored after the response or used for training."
+      },
+      {
+        "q": "Why does it need Accessibility permission?",
+        "a": "So it can read and correct the field you're focused on anywhere on the system, without a plugin per app. DuoTyping only ever reads the field you're actively typing in — never your screen at large."
+      }
+    ]
+  },
+  "FinalCta": {
+    "heading": "Start writing with more confidence.",
+    "body": "One-time purchase, no subscription. Free to try first, no card.",
+    "download": "Download for macOS",
+    "seePricing": "See pricing",
+    "footnote": "MACOS 14+ · APPLE SILICON ONLY"
+  },
+  "Footer": {
+    "brand": "DuoTyping",
+    "pricing": "Pricing",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "license": "License Agreement",
+    "copyright": "© DuoTyping"
+  }
+}

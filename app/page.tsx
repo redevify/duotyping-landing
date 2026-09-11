@@ -1,0 +1,54 @@
+import { AnnouncementBar } from './components/AnnouncementBar';
+import { DemoWidget } from './components/DemoWidget';
+import { Faq } from './components/Faq';
+import { Features } from './components/Features';
+import { FinalCta } from './components/FinalCta';
+import { Footer } from './components/Footer';
+import { Header } from './components/Header';
+import { Hero } from './components/Hero';
+import { HowItWorks } from './components/HowItWorks';
+import { LogoMarquee } from './components/LogoMarquee';
+import { Pricing } from './components/Pricing';
+import { PrivacySection } from './components/PrivacySection';
+import { StatsCompare } from './components/StatsCompare';
+import { Testimonials } from './components/Testimonials';
+
+const SOFTWARE_APPLICATION_JSON_LD = {
+  '@context': 'https://schema.org',
+  '@type': 'SoftwareApplication',
+  name: 'DuoTyping',
+  description: 'DuoTyping catches grammar and tone slips in any Mac app and shows you the fix.',
+  url: 'https://duotyping.com',
+  applicationCategory: 'ProductivityApplication',
+  operatingSystem: 'macOS 14+',
+  offers: [
+    { '@type': 'Offer', name: 'Free', price: '0', priceCurrency: 'USD' },
+    { '@type': 'Offer', name: 'Full license', price: '49', priceCurrency: 'USD' },
+  ],
+};
+
+export default function HomePage() {
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        // eslint-disable-next-line react/no-danger
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(SOFTWARE_APPLICATION_JSON_LD) }}
+      />
+      <AnnouncementBar />
+      <Header />
+      <Hero />
+      <DemoWidget />
+      <LogoMarquee />
+      <StatsCompare />
+      <HowItWorks />
+      <Features />
+      <PrivacySection />
+      <Testimonials />
+      <Pricing />
+      <Faq />
+      <FinalCta />
+      <Footer />
+    </>
+  );
+}
