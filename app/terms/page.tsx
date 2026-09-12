@@ -3,7 +3,7 @@ import { LegalLayout, LegalSection } from '../components/LegalLayout';
 
 export const metadata: Metadata = {
   title: 'Terms of Service — DuoTyping',
-  description: 'The terms governing your use of the DuoTyping macOS app, its one-time license, and optional Cloud AI feature.',
+  description: 'The terms governing your use of the DuoTyping desktop app, its one-time license, and optional Cloud AI feature.',
   alternates: {
     canonical: '/terms',
   },
@@ -13,11 +13,11 @@ export default function TermsOfServicePage() {
   return (
     <LegalLayout title="Terms of Service" updated="September 8, 2026" currentSlug="terms">
       <LegalSection>
-        <p>These Terms govern your use of DuoTyping, a macOS application. By downloading, installing, or using the app, you agree to these Terms and to the <a href="/license">License Agreement</a> and <a href="/privacy">Privacy Policy</a>, which are incorporated by reference.</p>
+        <p>These Terms govern your use of DuoTyping, a desktop application. By downloading, installing, or using the app, you agree to these Terms and to the <a href="/license">License Agreement</a> and <a href="/privacy">Privacy Policy</a>, which are incorporated by reference.</p>
       </LegalSection>
 
       <LegalSection heading="1. The service">
-        <p>DuoTyping is a native macOS app that detects grammar, tone and structural issues in text and presents suggestions you choose to accept or ignore. It requires macOS 14 or later on Apple Silicon. It is provided &quot;as is,&quot; and suggestions are not guaranteed to be complete, accurate, or suitable for any particular purpose — you remain responsible for reviewing and sending your own writing.</p>
+        <p>DuoTyping is a native desktop app that detects grammar, tone and structural issues in text and presents suggestions you choose to accept or ignore. Current system requirements are listed on the download page. It is provided &quot;as is,&quot; and suggestions are not guaranteed to be complete, accurate, or suitable for any particular purpose — you remain responsible for reviewing and sending your own writing.</p>
       </LegalSection>
 
       <LegalSection heading="2. Purchases and licensing">

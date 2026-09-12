@@ -1,4 +1,3 @@
-import { AnnouncementBar } from './components/AnnouncementBar';
 import { DemoWidget } from './components/DemoWidget';
 import { Faq } from './components/Faq';
 import { Features } from './components/Features';
@@ -17,10 +16,9 @@ const SOFTWARE_APPLICATION_JSON_LD = {
   '@context': 'https://schema.org',
   '@type': 'SoftwareApplication',
   name: 'DuoTyping',
-  description: 'DuoTyping catches grammar and tone slips in any Mac app and shows you the fix.',
+  description: 'DuoTyping catches grammar and tone slips in any app you write in and shows you the fix.',
   url: 'https://duotyping.com',
   applicationCategory: 'ProductivityApplication',
-  operatingSystem: 'macOS 14+',
   offers: [
     { '@type': 'Offer', name: 'Free', price: '0', priceCurrency: 'USD' },
     { '@type': 'Offer', name: 'Full license', price: '49', priceCurrency: 'USD' },
@@ -35,7 +33,6 @@ export default function HomePage() {
         // eslint-disable-next-line react/no-danger
         dangerouslySetInnerHTML={{ __html: JSON.stringify(SOFTWARE_APPLICATION_JSON_LD) }}
       />
-      <AnnouncementBar />
       <Header />
       <Hero />
       <DemoWidget />

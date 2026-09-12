@@ -1,7 +1,7 @@
 {
   "Metadata": {
     "title": "DuoTyping — your writing buddy that never rewrites you",
-    "description": "DuoTyping catches grammar and tone slips in any Mac app and shows you the fix."
+    "description": "DuoTyping catches grammar and tone slips in any app you write in and shows you the fix."
   },
   "AnnouncementBar": {
     "badge": "New",
@@ -14,11 +14,10 @@
     "navFeatures": "Features",
     "navPricing": "Pricing",
     "navFaq": "FAQ",
-    "signIn": "Sign in",
-    "download": "Download for macOS"
+    "download": "Download free"
   },
   "Hero": {
-    "eyebrow": "DuoTyping · lives in your menu bar on macOS",
+    "eyebrow": "DuoTyping · quietly running while you write",
     "headlinePrefix": "Your writing buddy that",
     "phrases": [
       "never rewrites you.",
@@ -27,21 +26,21 @@
       "stays out of your way.",
       "never sounds like AI.",
       "catches what you missed.",
-      "runs on your Mac only.",
+      "runs on your device only.",
       "suggests, you decide.",
       "works in every app.",
       "gets out of the way."
     ],
-    "subtitle": "DuoTyping catches grammar and tone slips in any Mac app and shows you the fix — one keypress to accept, nothing changes until you say so.",
-    "download": "Download for macOS",
+    "subtitle": "DuoTyping catches grammar and tone slips in any app you write in and shows you the fix — one keypress to accept, nothing changes until you say so.",
+    "download": "Download free",
     "watchDemo": "Watch the 40s demo",
-    "footnote": "MACOS 14+ · APPLE SILICON ONLY · RUNS LOCALLY BY DEFAULT"
+    "footnote": "INSTANT SUGGESTIONS · 100% ON-DEVICE · NOTHING LEAVES YOUR MACHINE"
   },
   "DemoWidget": {
-    "badge": "⌥ SPACE · SUGGESTIONS",
+    "badge": "SUGGESTIONS",
     "youTyped": "What you typed",
     "suggestions": "DuoTyping's suggestions",
-    "acceptedNote": "3 suggestions accepted with ⌥ Space · nothing sent without you",
+    "acceptedNote": "3 suggestions accepted with Cmd/Ctrl+Shift+D · nothing sent without you",
     "flaggedRunOn": "run-on flagged",
     "flaggedTone": "tone flagged",
     "flaggedStructure": "structure flagged",
@@ -112,7 +111,7 @@
   "HowItWorks": {
     "eyebrow": "How it works",
     "heading": "One shortcut,",
-    "headingHighlight": "every Mac app.",
+    "headingHighlight": "every app you write in.",
     "steps": [
       {
         "num": "01",
@@ -122,13 +121,13 @@
       },
       {
         "num": "02",
-        "title": "Hit ⌥ Space",
-        "body": "One system-wide shortcut, anywhere your cursor is. DuoTyping shows you what is off — grammar, tone, structure — and you decide what to accept.",
-        "lines": ["⌥ Space   show suggestions", "↵   accept one", "⌘ ⇧ Space   ask for a paraphrase"]
+        "title": "Hit your hotkey",
+        "body": "One system-wide shortcut, anywhere your cursor is — pick your own combo in Preferences, or keep the default. DuoTyping shows you what is off — grammar, tone, structure — and you decide what to accept.",
+        "lines": ["Cmd/Ctrl+Shift+D   show suggestions", "Enter   accept one", "Cmd/Ctrl+Shift+P   ask for a paraphrase"]
       },
       {
         "num": "03",
-        "title": "Stays on your Mac",
+        "title": "Stays on your device",
         "body": "Detection runs locally with zero network entitlement — your text cannot leave the machine even in principle. Cloud AI is opt-in, with your own key.",
         "lines": ["Mail · Slack · Notes · Pages", "Notion · Linear · Xcode", "any text field on the system"]
       }
@@ -141,7 +140,7 @@
       {
         "tag": "PRIVACY",
         "title": "Local by default",
-        "body": "Detection runs on a bundled local model with zero network entitlement at the OS level. Nothing leaves your Mac unless you turn on Cloud AI yourself."
+        "body": "Detection runs on a bundled local model with zero network entitlement at the OS level. Nothing leaves your device unless you turn on Cloud AI yourself."
       },
       {
         "tag": "CONTROL",
@@ -163,7 +162,7 @@
   "PrivacySection": {
     "heading": "Your writing",
     "headingHighlight": "stays yours.",
-    "body": "Detection runs locally with zero network entitlement at the sandbox level — that's not a settings toggle, your text can't leave the Mac even in principle. Turn on Cloud AI with your own API key only when you want heavier paraphrasing.",
+    "body": "Detection runs locally with zero network entitlement at the sandbox level — that's not a settings toggle, your text can't leave your device even in principle. Turn on Cloud AI with your own API key only when you want heavier paraphrasing.",
     "link": "Read how the sandbox works",
     "certs": ["ZERO NETWORK ENTITLEMENT", "ON-DEVICE MODEL", "BYO CLOUD KEY, OPT-IN", "NO TRAINING ON YOUR TEXT"]
   },
@@ -173,7 +172,7 @@
     "headingHighlight": "people using it.",
     "featuredQuote": "I stopped rereading emails five times before hitting send. It flags what's actually off and gets out of the way.",
     "featuredStatCpuValue": "<1%",
-    "featuredStatCpuLabel": "CPU while idling in the menu bar",
+    "featuredStatCpuLabel": "CPU while idling in the background",
     "featuredStatNetworkValue": "0",
     "featuredStatNetworkLabel": "network calls, unless you opt in",
     "featuredCta": "Read the story",
@@ -191,7 +190,7 @@
         "initials": "DO"
       },
       {
-        "text": "It lives in the menu bar and checks Xcode comments, which nothing else on my Mac does.",
+        "text": "It sits quietly in the background and checks code comments, which nothing else I have tried does.",
         "name": "Lena Fischer",
         "role": "Staff engineer",
         "initials": "LF"
@@ -203,7 +202,7 @@
     "headingHighlight": "No subscription.",
     "plans": [
       { "name": "Free", "price": "$0", "body": "Local detection, a daily suggestion limit, no time limit on the trial.", "cta": "Download" },
-      { "name": "Full license", "price": "$49", "body": "Unlimited local detection, forever, on one Mac. No subscription, free updates.", "cta": "Buy once" },
+      { "name": "Full license", "price": "$49", "body": "Unlimited local detection, forever, on one computer. No subscription, free updates.", "cta": "Buy once" },
       { "name": "Cloud AI", "price": "BYO key", "body": "Turn on heavier paraphrasing with your own API key. You pay the provider directly, nothing extra to us.", "cta": "Learn more" }
     ]
   },
@@ -213,15 +212,15 @@
     "items": [
       {
         "q": "Which apps does it work in?",
-        "a": "Every app on your Mac. DuoTyping reads and corrects text wherever your cursor is, so there is nothing to integrate — Mail, Slack, Notes, Notion, Pages, Xcode, your terminal, any browser text field."
+        "a": "Every app you write in. DuoTyping reads and corrects text wherever your cursor is, so there is nothing to integrate — mail, Slack, Notes, Notion, Docs, your editor, your terminal, any browser text field."
       },
       {
-        "q": "Is there a Windows, iPhone or web version?",
-        "a": "Not yet, and there's no Windows beta right now. DuoTyping is macOS-only on purpose: a sandboxed local model, Apple Silicon inference and zero network entitlement are what make the privacy story structural instead of a marketing claim."
+        "q": "Is there a mobile or web version?",
+        "a": "Not yet. DuoTyping is a desktop app, because reading the field you're focused on across every app is something only a desktop app can do. Mobile and web are on the list, and the same rule holds there: detection stays on your device."
       },
       {
         "q": "What does it need to run?",
-        "a": "macOS 14 or later, on Apple Silicon. Intel Macs aren't supported — the local model needs Apple Silicon to run fast enough to feel instant. It's a native app that idles at well under 1% CPU."
+        "a": "An ordinary laptop or desktop. The bundled model is small and tuned to stay instant on everyday machines rather than needing high-end hardware — it's a native app that idles at well under 1% CPU. Current system requirements are listed on the download page."
       },
       {
         "q": "Does it rewrite my writing for me?",
@@ -233,7 +232,7 @@
       },
       {
         "q": "Is my writing private?",
-        "a": "Detection runs locally by default with zero network entitlement at the sandbox level — your text can't leave the Mac even in principle, not because of a setting you could get wrong. Cloud AI is opt-in, uses your own API key, and nothing is stored after the response or used for training."
+        "a": "Detection runs locally by default with zero network entitlement at the sandbox level — your text can't leave your device even in principle, not because of a setting you could get wrong. Cloud AI is opt-in, uses your own API key, and nothing is stored after the response or used for training."
       },
       {
         "q": "Why does it need Accessibility permission?",
@@ -244,9 +243,9 @@
   "FinalCta": {
     "heading": "Start writing with more confidence.",
     "body": "One-time purchase, no subscription. Free to try first, no card.",
-    "download": "Download for macOS",
+    "download": "Download free",
     "seePricing": "See pricing",
-    "footnote": "MACOS 14+ · APPLE SILICON ONLY"
+    "footnote": "ONE-TIME PURCHASE · 100% ON-DEVICE"
   },
   "Footer": {
     "brand": "DuoTyping",

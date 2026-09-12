@@ -19,7 +19,6 @@ export function Header() {
           <a href="#faq" className="text-muted hover:text-ink transition-colors">{t('navFaq')}</a>
         </nav>
         <div className="flex-1" />
-        <a href="#cta" className="hidden md:inline text-sm text-muted hover:text-ink transition-colors">{t('signIn')}</a>
         <CtaButton href="#cta" variant="dark" className="text-sm px-4.5 py-2.25">{t('download')}</CtaButton>
       </div>
     </header>

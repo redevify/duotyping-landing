@@ -34,7 +34,7 @@ export default function Image() {
           Your writing buddy that <span style={{ color: '#b8802a' }}>never rewrites you.</span>
         </div>
         <div style={{ display: 'flex', fontSize: 13, letterSpacing: 2, color: '#6e7680', textTransform: 'uppercase' }}>
-          MACOS 14+ · APPLE SILICON ONLY · RUNS LOCALLY BY DEFAULT
+          INSTANT SUGGESTIONS · 100% ON-DEVICE · NOTHING LEAVES YOUR MACHINE
         </div>
       </div>
     ),

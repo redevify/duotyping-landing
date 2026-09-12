@@ -3,7 +3,7 @@ import { LegalLayout, LegalSection } from '../components/LegalLayout';
 
 export const metadata: Metadata = {
   title: 'License Agreement — DuoTyping',
-  description: 'The perpetual, one-time license terms covering your purchase and use of DuoTyping on macOS.',
+  description: 'The perpetual, one-time license terms covering your purchase and use of DuoTyping.',
   alternates: {
     canonical: '/license',
   },
@@ -17,11 +17,11 @@ export default function LicenseAgreementPage() {
       </LegalSection>
 
       <LegalSection heading="Seats">
-        <p>A single-seat license covers use by you, personally, on the Macs you own or control. Team and business licensing covering multiple seats is available on request — contact us before deploying across a team.</p>
+        <p>A single-seat license covers use by you, personally, on the computers you own or control. Team and business licensing covering multiple seats is available on request — contact us before deploying across a team.</p>
       </LegalSection>
 
       <LegalSection heading="Restrictions">
-        <p>You may not resell, sublicense, or share your license key, reverse-engineer or decompile the app or its bundled local model, or redistribute the app outside of official channels. The license does not transfer with resale of your Mac.</p>
+        <p>You may not resell, sublicense, or share your license key, reverse-engineer or decompile the app or its bundled local model, or redistribute the app outside of official channels. The license does not transfer with resale of your computer.</p>
       </LegalSection>
 
       <LegalSection heading="Updates and major versions">
