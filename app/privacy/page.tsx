@@ -1,12 +1,17 @@
 import type { Metadata } from 'next';
 import { LegalLayout, LegalSection } from '../components/LegalLayout';
 
+const title = 'Privacy Policy — DuoTyping';
+const description = 'How DuoTyping handles your writing: local-by-default detection, zero network entitlement, and opt-in Cloud AI.';
+
 export const metadata: Metadata = {
-  title: 'Privacy Policy — DuoTyping',
-  description: 'How DuoTyping handles your writing: local-by-default detection, zero network entitlement, and opt-in Cloud AI.',
+  title,
+  description,
   alternates: {
     canonical: '/privacy',
   },
+  openGraph: { title, description, url: '/privacy' },
+  twitter: { card: 'summary_large_image', title, description },
 };
 
 export default function PrivacyPolicyPage() {

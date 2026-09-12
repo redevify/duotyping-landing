@@ -1,12 +1,17 @@
 import type { Metadata } from 'next';
 import { LegalLayout, LegalSection } from '../components/LegalLayout';
 
+const title = 'License Agreement — DuoTyping';
+const description = 'The perpetual, one-time license terms covering your purchase and use of DuoTyping.';
+
 export const metadata: Metadata = {
-  title: 'License Agreement — DuoTyping',
-  description: 'The perpetual, one-time license terms covering your purchase and use of DuoTyping.',
+  title,
+  description,
   alternates: {
     canonical: '/license',
   },
+  openGraph: { title, description, url: '/license' },
+  twitter: { card: 'summary_large_image', title, description },
 };
 
 export default function LicenseAgreementPage() {

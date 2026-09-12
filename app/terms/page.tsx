@@ -1,12 +1,17 @@
 import type { Metadata } from 'next';
 import { LegalLayout, LegalSection } from '../components/LegalLayout';
 
+const title = 'Terms of Service — DuoTyping';
+const description = 'The terms governing your use of the DuoTyping desktop app, its one-time license, and optional Cloud AI feature.';
+
 export const metadata: Metadata = {
-  title: 'Terms of Service — DuoTyping',
-  description: 'The terms governing your use of the DuoTyping desktop app, its one-time license, and optional Cloud AI feature.',
+  title,
+  description,
   alternates: {
     canonical: '/terms',
   },
+  openGraph: { title, description, url: '/terms' },
+  twitter: { card: 'summary_large_image', title, description },
 };
 
 export default function TermsOfServicePage() {

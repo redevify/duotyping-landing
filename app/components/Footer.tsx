@@ -12,7 +12,6 @@ export function Footer() {
           {t('brand')}
         </span>
         <div className="flex flex-wrap gap-5 text-sm">
-          <a href="#pricing" className="text-muted hover:text-ink transition-colors">{t('pricing')}</a>
           <a href="/privacy" className="text-muted hover:text-ink transition-colors">{t('privacy')}</a>
           <a href="/terms" className="text-muted hover:text-ink transition-colors">{t('terms')}</a>
           <a href="/license" className="text-muted hover:text-ink transition-colors">{t('license')}</a>
