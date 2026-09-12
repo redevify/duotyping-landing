@@ -7,7 +7,7 @@ export const size = { width: 1200, height: 630 };
 export const contentType = 'image/png';
 export const alt = 'DuoTyping — your writing buddy that never rewrites you';
 
-const logoDataUrl = `data:image/png;base64,${readFileSync(join(process.cwd(), 'public/logo.png')).toString('base64')}`;
+const logoDataUrl = `data:image/png;base64,${readFileSync(join(process.cwd(), 'public/logo/logo.png')).toString('base64')}`;
 
 export default function Image() {
   return new ImageResponse(
