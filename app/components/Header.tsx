@@ -15,7 +15,6 @@ export function Header() {
         <nav className="hidden md:flex gap-5.5 text-sm text-muted ml-2">
           <a href="#how" className="text-muted hover:text-ink transition-colors">{t('navHow')}</a>
           <a href="#features" className="text-muted hover:text-ink transition-colors">{t('navFeatures')}</a>
-          <a href="#pricing" className="text-muted hover:text-ink transition-colors">{t('navPricing')}</a>
           <a href="#faq" className="text-muted hover:text-ink transition-colors">{t('navFaq')}</a>
         </nav>
         <div className="flex-1" />

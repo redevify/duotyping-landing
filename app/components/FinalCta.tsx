@@ -11,7 +11,6 @@ export function FinalCta() {
         <p className="mx-auto mb-6.5 text-lg text-muted max-w-[40ch]">{t('body')}</p>
         <div className="flex flex-wrap gap-3 justify-center">
           <CtaButton href="#" variant="dark" className="text-base px-7 py-3.25">{t('download')}</CtaButton>
-          <CtaButton href="#pricing" variant="outline" className="text-base px-7 py-3.25">{t('seePricing')}</CtaButton>
         </div>
         <div className="font-mono text-xs tracking-widest text-muted-2 mt-5.5">{t('footnote')}</div>
       </div>

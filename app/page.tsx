@@ -7,10 +7,8 @@ import { Header } from './components/Header';
 import { Hero } from './components/Hero';
 import { HowItWorks } from './components/HowItWorks';
 import { LogoMarquee } from './components/LogoMarquee';
-import { Pricing } from './components/Pricing';
 import { PrivacySection } from './components/PrivacySection';
 import { StatsCompare } from './components/StatsCompare';
-import { Testimonials } from './components/Testimonials';
 
 const SOFTWARE_APPLICATION_JSON_LD = {
   '@context': 'https://schema.org',
@@ -41,8 +39,6 @@ export default function HomePage() {
       <HowItWorks />
       <Features />
       <PrivacySection />
-      <Testimonials />
-      <Pricing />
       <Faq />
       <FinalCta />
       <Footer />
