@@ -1,12 +1,7 @@
 {
   "Metadata": {
-    "title": "DuoTyping — your writing buddy that never rewrites you",
+    "title": "DuoTyping \u2014 your writing buddy that never rewrites you",
     "description": "DuoTyping catches grammar and tone slips in any app you write in and shows you the fix."
-  },
-  "AnnouncementBar": {
-    "badge": "New",
-    "text": "Domain-aware tone calibration for legal, medical & client work just shipped.",
-    "cta": "See what's new"
   },
   "Header": {
     "brand": "DuoTyping",
@@ -17,7 +12,7 @@
     "download": "Download free"
   },
   "Hero": {
-    "eyebrow": "DuoTyping · quietly running while you write",
+    "eyebrow": "DuoTyping \u00b7 quietly running while you write",
     "headlinePrefix": "Your writing buddy that",
     "phrases": [
       "never rewrites you.",
@@ -31,16 +26,16 @@
       "works in every app.",
       "gets out of the way."
     ],
-    "subtitle": "DuoTyping catches grammar and tone slips in any app you write in and shows you the fix — one keypress to accept, nothing changes until you say so.",
+    "subtitle": "DuoTyping catches grammar and tone slips in any app you write in and shows you the fix \u2014 one keypress to accept, nothing changes until you say so.",
     "download": "Download free",
     "watchDemo": "Watch the 40s demo",
-    "footnote": "INSTANT SUGGESTIONS · 100% ON-DEVICE · NOTHING LEAVES YOUR MACHINE"
+    "footnote": "INSTANT SUGGESTIONS \u00b7 100% ON-DEVICE \u00b7 NOTHING LEAVES YOUR MACHINE"
   },
   "DemoWidget": {
     "badge": "SUGGESTIONS",
     "youTyped": "What you typed",
     "suggestions": "DuoTyping's suggestions",
-    "acceptedNote": "3 suggestions accepted with Cmd/Ctrl+Shift+D · nothing sent without you",
+    "acceptedNote": "3 suggestions accepted with Cmd/Ctrl+Shift+D \u00b7 nothing sent without you",
     "flaggedRunOn": "run-on flagged",
     "flaggedTone": "tone flagged",
     "flaggedStructure": "structure flagged",
@@ -48,12 +43,12 @@
       {
         "label": "Message to Marcus",
         "messy": "hey marcus quick one - launch is slipping, not friday, monday now. legal still hasnt signed off on the terms page and i dont want to commit to a date until they do. will get you a proper timeline thursday eod. sorry for the churn its been a messy week here",
-        "clean": "Hi Marcus — quick update. The launch is slipping from Friday to Monday. Legal hasn't signed off on the terms page yet, and I don't want to commit to a date until they have. I'll get you a firm timeline by end of day Thursday. Apologies for the churn."
+        "clean": "Hi Marcus \u2014 quick update. The launch is slipping from Friday to Monday. Legal hasn't signed off on the terms page yet, and I don't want to commit to a date until they have. I'll get you a firm timeline by end of day Thursday. Apologies for the churn."
       },
       {
         "label": "Slack #eng-standup",
         "messy": "so the migration script worked on staging but its throwing a null pointer on prod, think its the null check on the user id field, gonna dig in more after lunch but wanted to flag it now",
-        "clean": "The migration script worked on staging but throws a null pointer on prod — looks like the null check on the user ID field. I'll dig in more after lunch, just wanted to flag it now."
+        "clean": "The migration script worked on staging but throws a null pointer on prod \u2014 looks like the null check on the user ID field. I'll dig in more after lunch, just wanted to flag it now."
       },
       {
         "label": "Client proposal.docx",
@@ -61,14 +56,14 @@
         "clean": "We recommend moving forward with Phase 2 as soon as possible. The data clearly shows engagement is up, and there's no reason to wait. In hindsight, we should have started last quarter."
       },
       {
-        "label": "Legal — NDA redline",
+        "label": "Legal \u2014 NDA redline",
         "messy": "the counterparty wants a carve out for stuff they already knew before the meeting, which is pretty standard, but the definition of confidential info in section 2 is way to broad rn",
         "clean": "The counterparty wants a carve-out for information they already knew before the meeting, which is standard. That said, the definition of confidential information in Section 2 is currently too broad."
       },
       {
-        "label": "Discharge summary — draft",
+        "label": "Discharge summary \u2014 draft",
         "messy": "pt tolerated procedure well, no complications noted, advised to follow up in 2 weeks and continue current meds unless symptoms worsen in which case go to er",
-        "clean": "Patient tolerated the procedure well with no complications noted. Advised to follow up in two weeks and continue current medications, unless symptoms worsen — in which case, go to the ER."
+        "clean": "Patient tolerated the procedure well with no complications noted. Advised to follow up in two weeks and continue current medications, unless symptoms worsen \u2014 in which case, go to the ER."
       },
       {
         "label": "Cover letter draft",
@@ -76,30 +71,37 @@
         "clean": "I'm excited about this role because I have a lot of experience in customer-facing positions, and I think my background in retail would translate well to this job."
       },
       {
-        "label": "Xcode — PR comment",
+        "label": "Xcode \u2014 PR comment",
         "messy": "this function does to much, its fetching data AND formatting it AND rendering, should probably split this into three seperate functions before we merge",
-        "clean": "This function does too much — it's fetching data, formatting it, and rendering, all in one place. We should split it into three separate functions before we merge."
+        "clean": "This function does too much \u2014 it's fetching data, formatting it, and rendering, all in one place. We should split it into three separate functions before we merge."
       },
       {
-        "label": "Notion — meeting notes",
+        "label": "Notion \u2014 meeting notes",
         "messy": "action items from today: sarah is gonna reach out to the vendor, we need to decide on pricing by friday, and someone should double check the contract language before we send it back",
         "clean": "Action items from today: Sarah will reach out to the vendor, we need to decide on pricing by Friday, and someone should double-check the contract language before we send it back."
       },
       {
-        "label": "Reddit — r/smallbusiness",
+        "label": "Reddit \u2014 r/smallbusiness",
         "messy": "just wanted to share that switching to a 4 day work week actually increased our output, alot of people were skeptical at first but the data speaks for itself at this point",
         "clean": "Just wanted to share that switching to a 4-day work week actually increased our output. A lot of people were skeptical at first, but the data speaks for itself at this point."
       },
       {
-        "label": "Tinder — first message",
+        "label": "Tinder \u2014 first message",
         "messy": "hey! saw you like hiking too, whats the best trail youve done this year? im always looking for new ones near the city",
-        "clean": "Hey! Saw you like hiking too — what's the best trail you've done this year? I'm always looking for new ones near the city."
+        "clean": "Hey! Saw you like hiking too \u2014 what's the best trail you've done this year? I'm always looking for new ones near the city."
       }
     ]
   },
   "LogoMarquee": {
     "builtFor": "Built for",
-    "logos": ["Legal", "Medical", "Client services", "Non-native English writers", "Engineers", "Indie founders"]
+    "logos": [
+      "Legal",
+      "Medical",
+      "Client services",
+      "Non-native English writers",
+      "Engineers",
+      "Indie founders"
+    ]
   },
   "StatsCompare": {
     "heading": "Most editing anxiety is the reread.",
@@ -116,20 +118,32 @@
       {
         "num": "01",
         "title": "Write it badly, fast",
-        "body": "Get the thought down without editing as you go. Typos, run-ons, no punctuation — that is the input DuoTyping expects.",
-        "lines": ["legal hasnt signed off yet", "dont want to commit to a date", "will send timeline thurs"]
+        "body": "Get the thought down without editing as you go. Typos, run-ons, no punctuation \u2014 that is the input DuoTyping expects.",
+        "lines": [
+          "legal hasnt signed off yet",
+          "dont want to commit to a date",
+          "will send timeline thurs"
+        ]
       },
       {
         "num": "02",
         "title": "Hit your hotkey",
-        "body": "One system-wide shortcut, anywhere your cursor is — pick your own combo in Preferences, or keep the default. DuoTyping shows you what is off — grammar, tone, structure — and you decide what to accept.",
-        "lines": ["Cmd/Ctrl+Shift+D   show suggestions", "Enter   accept one", "Cmd/Ctrl+Shift+P   ask for a paraphrase"]
+        "body": "One system-wide shortcut, anywhere your cursor is \u2014 pick your own combo in Preferences, or keep the default. DuoTyping shows you what is off \u2014 grammar, tone, structure \u2014 and you decide what to accept.",
+        "lines": [
+          "Cmd/Ctrl+Shift+D   show suggestions",
+          "Enter   accept one",
+          "Cmd/Ctrl+Shift+P   ask for a paraphrase"
+        ]
       },
       {
         "num": "03",
         "title": "Stays on your device",
-        "body": "Detection runs locally with zero network entitlement — your text cannot leave the machine even in principle. Cloud AI is opt-in, with your own key.",
-        "lines": ["Mail · Slack · Notes · Pages", "Notion · Linear · Xcode", "any text field on the system"]
+        "body": "Detection runs locally with zero network entitlement \u2014 your text cannot leave the machine even in principle. Cloud AI is opt-in, with your own key.",
+        "lines": [
+          "Mail \u00b7 Slack \u00b7 Notes \u00b7 Pages",
+          "Notion \u00b7 Linear \u00b7 Xcode",
+          "any text field on the system"
+        ]
       }
     ]
   },
@@ -145,7 +159,7 @@
       {
         "tag": "CONTROL",
         "title": "Suggests, never rewrites",
-        "body": "Every fix is visible before it happens. Accept what is right with one keypress, skip the rest — DuoTyping never silently changes what you wrote."
+        "body": "Every fix is visible before it happens. Accept what is right with one keypress, skip the rest \u2014 DuoTyping never silently changes what you wrote."
       },
       {
         "tag": "CONTEXT",
@@ -155,16 +169,21 @@
       {
         "tag": "GROWTH",
         "title": "Aims to fade",
-        "body": "A coaching layer tracks the patterns you keep repeating, so the goal is needing DuoTyping less over time — not more."
+        "body": "A coaching layer tracks the patterns you keep repeating, so the goal is needing DuoTyping less over time \u2014 not more."
       }
     ]
   },
   "PrivacySection": {
     "heading": "Your writing",
     "headingHighlight": "stays yours.",
-    "body": "Detection runs locally with zero network entitlement at the sandbox level — that's not a settings toggle, your text can't leave your device even in principle. Turn on Cloud AI with your own API key only when you want heavier paraphrasing.",
+    "body": "Detection runs locally with zero network entitlement at the sandbox level \u2014 that's not a settings toggle, your text can't leave your device even in principle. Turn on Cloud AI with your own API key only when you want heavier paraphrasing.",
     "link": "Read how the sandbox works",
-    "certs": ["ZERO NETWORK ENTITLEMENT", "ON-DEVICE MODEL", "BYO CLOUD KEY, OPT-IN", "NO TRAINING ON YOUR TEXT"]
+    "certs": [
+      "ZERO NETWORK ENTITLEMENT",
+      "ON-DEVICE MODEL",
+      "BYO CLOUD KEY, OPT-IN",
+      "NO TRAINING ON YOUR TEXT"
+    ]
   },
   "Testimonials": {
     "eyebrow": "Early access, real reactions",
@@ -201,9 +220,24 @@
     "heading": "Buy once.",
     "headingHighlight": "No subscription.",
     "plans": [
-      { "name": "Free", "price": "$0", "body": "Local detection, a daily suggestion limit, no time limit on the trial.", "cta": "Download" },
-      { "name": "Full license", "price": "$49", "body": "Unlimited local detection, forever, on one computer. No subscription, free updates.", "cta": "Buy once" },
-      { "name": "Cloud AI", "price": "BYO key", "body": "Turn on heavier paraphrasing with your own API key. You pay the provider directly, nothing extra to us.", "cta": "Learn more" }
+      {
+        "name": "Free",
+        "price": "$0",
+        "body": "Local detection, a daily suggestion limit, no time limit on the trial.",
+        "cta": "Download"
+      },
+      {
+        "name": "Full license",
+        "price": "$49",
+        "body": "Unlimited local detection, forever, on one computer. No subscription, free updates.",
+        "cta": "Buy once"
+      },
+      {
+        "name": "Cloud AI",
+        "price": "BYO key",
+        "body": "Turn on heavier paraphrasing with your own API key. You pay the provider directly, nothing extra to us.",
+        "cta": "Learn more"
+      }
     ]
   },
   "Faq": {
@@ -212,7 +246,7 @@
     "items": [
       {
         "q": "Which apps does it work in?",
-        "a": "Every app you write in. DuoTyping reads and corrects text wherever your cursor is, so there is nothing to integrate — mail, Slack, Notes, Notion, Docs, your editor, your terminal, any browser text field."
+        "a": "Every app you write in. DuoTyping reads and corrects text wherever your cursor is, so there is nothing to integrate \u2014 mail, Slack, Notes, Notion, Docs, your editor, your terminal, any browser text field."
       },
       {
         "q": "Is there a mobile or web version?",
@@ -220,23 +254,23 @@
       },
       {
         "q": "What does it need to run?",
-        "a": "An ordinary laptop or desktop. The bundled model is small and tuned to stay instant on everyday machines rather than needing high-end hardware — it's a native app that idles at well under 1% CPU. Current system requirements are listed on the download page."
+        "a": "An ordinary laptop or desktop. The bundled model is small and tuned to stay instant on everyday machines rather than needing high-end hardware \u2014 it's a native app that idles at well under 1% CPU. Current system requirements are listed on the download page."
       },
       {
         "q": "Does it rewrite my writing for me?",
-        "a": "No — it never rewrites silently. DuoTyping detects grammar, tone and structure issues and shows you the fix; accepting is always one keypress you choose to make. Heavier paraphrasing is a separate, opt-in step using your own Cloud AI key."
+        "a": "No \u2014 it never rewrites silently. DuoTyping detects grammar, tone and structure issues and shows you the fix; accepting is always one keypress you choose to make. Heavier paraphrasing is a separate, opt-in step using your own Cloud AI key."
       },
       {
         "q": "Will it flatten my writing into AI voice?",
-        "a": "That's the failure mode we designed against. Suggestions fix grammar, run-ons and tone mismatches — they don't rewrite your word choices for you. Paraphrasing only happens if you explicitly ask for it."
+        "a": "That's the failure mode we designed against. Suggestions fix grammar, run-ons and tone mismatches \u2014 they don't rewrite your word choices for you. Paraphrasing only happens if you explicitly ask for it."
       },
       {
         "q": "Is my writing private?",
-        "a": "Detection runs locally by default with zero network entitlement at the sandbox level — your text can't leave your device even in principle, not because of a setting you could get wrong. Cloud AI is opt-in, uses your own API key, and nothing is stored after the response or used for training."
+        "a": "Detection runs locally by default with zero network entitlement at the sandbox level \u2014 your text can't leave your device even in principle, not because of a setting you could get wrong. Cloud AI is opt-in, uses your own API key, and nothing is stored after the response or used for training."
       },
       {
         "q": "Why does it need Accessibility permission?",
-        "a": "So it can read and correct the field you're focused on anywhere on the system, without a plugin per app. DuoTyping only ever reads the field you're actively typing in — never your screen at large."
+        "a": "So it can read and correct the field you're focused on anywhere on the system, without a plugin per app. DuoTyping only ever reads the field you're actively typing in \u2014 never your screen at large."
       }
     ]
   },
@@ -245,7 +279,7 @@
     "body": "One-time purchase, no subscription. Free to try first, no card.",
     "download": "Download free",
     "seePricing": "See pricing",
-    "footnote": "ONE-TIME PURCHASE · 100% ON-DEVICE"
+    "footnote": "ONE-TIME PURCHASE \u00b7 100% ON-DEVICE"
   },
   "Footer": {
     "brand": "DuoTyping",
@@ -253,6 +287,6 @@
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "license": "License Agreement",
-    "copyright": "© DuoTyping"
+    "copyright": "\u00a9 DuoTyping"
   }
 }
