@@ -1,0 +1,105 @@
+{
+  "envelopeVersion" : 1,
+  "keyID" : "DuoTyping-catalog-2026-09",
+  "payload" : {
+    "expiresAt" : "2026-10-13T13:31:49Z",
+    "issuedAt" : "2026-09-13T13:31:49Z",
+    "models" : [
+      {
+        "entry" : {
+          "descriptor" : "Fastest",
+          "downloadSizeBytes" : 981516537,
+          "gated" : false,
+          "id" : "qwen3-1.7b-4bit",
+          "license" : "Apache 2.0",
+          "minimumRAMBytes" : 8589934592,
+          "name" : "Qwen3 1.7B (4-bit)",
+          "provider" : "huggingFace",
+          "recommendedRAMBytes" : 8589934592
+        },
+        "kind" : "local"
+      },
+      {
+        "entry" : {
+          "descriptor" : "Balanced",
+          "downloadSizeBytes" : 1824825759,
+          "gated" : false,
+          "id" : "llama-3.2-3b-instruct-4bit",
+          "license" : "Llama 3.2 Community License",
+          "minimumRAMBytes" : 8589934592,
+          "name" : "Llama 3.2 3B Instruct (4-bit)",
+          "provider" : "huggingFace",
+          "recommendedRAMBytes" : 8589934592
+        },
+        "kind" : "local"
+      },
+      {
+        "entry" : {
+          "descriptor" : "Balanced",
+          "downloadSizeBytes" : 2278972236,
+          "gated" : false,
+          "id" : "qwen3-4b-instruct-2507-4bit",
+          "license" : "Apache 2.0",
+          "minimumRAMBytes" : 8589934592,
+          "name" : "Qwen3 4B Instruct (2507, 4-bit)",
+          "provider" : "huggingFace",
+          "recommendedRAMBytes" : 8589934592
+        },
+        "kind" : "local"
+      },
+      {
+        "entry" : {
+          "descriptor" : "Most capable",
+          "downloadSizeBytes" : 8321086930,
+          "gated" : false,
+          "id" : "qwen2.5-14b-instruct-4bit",
+          "license" : "Apache 2.0",
+          "minimumRAMBytes" : 17179869184,
+          "name" : "Qwen2.5 14B Instruct (4-bit)",
+          "provider" : "huggingFace",
+          "recommendedRAMBytes" : 34359738368
+        },
+        "kind" : "local"
+      },
+      {
+        "kind" : "cloud",
+        "model" : {
+          "capabilities" : {
+            "text" : true
+          },
+          "enabled" : true,
+          "family" : "gpt-4o",
+          "id" : "gpt-4o-mini",
+          "limit" : {
+
+          },
+          "name" : "GPT-4o mini",
+          "providerID" : "openai",
+          "status" : "active"
+        },
+        "providerID" : "openai"
+      },
+      {
+        "kind" : "cloud",
+        "model" : {
+          "capabilities" : {
+            "text" : true
+          },
+          "enabled" : true,
+          "family" : "claude",
+          "id" : "claude-haiku-4-5-20251001",
+          "limit" : {
+
+          },
+          "name" : "Claude Haiku 4.5",
+          "providerID" : "anthropic",
+          "status" : "active"
+        },
+        "providerID" : "anthropic"
+      }
+    ],
+    "schemaVersion" : 1,
+    "sequence" : 1
+  },
+  "signature" : "BAXc6nU5e4ACfYMosQlmw91TTP4L3Ff37nutvDzDxkIQb9gsEJQ87ca2GKOZSwTq7amO\/UXOCFSPwz1CVaHVCw=="
+}
