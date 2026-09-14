@@ -2,62 +2,62 @@
   "envelopeVersion" : 1,
   "keyID" : "DuoTyping-catalog-2026-09",
   "payload" : {
-    "expiresAt" : "2026-10-13T13:31:49Z",
-    "issuedAt" : "2026-09-13T13:31:49Z",
+    "expiresAt" : "2026-10-14T15:54:18Z",
+    "issuedAt" : "2026-09-14T15:54:18Z",
     "models" : [
       {
         "entry" : {
           "descriptor" : "Fastest",
-          "downloadSizeBytes" : 981516537,
+          "downloadSize" : 938,
           "gated" : false,
           "id" : "qwen3-1.7b-4bit",
           "license" : "Apache 2.0",
-          "minimumRAMBytes" : 8589934592,
+          "minimumRAM" : 8192,
           "name" : "Qwen3 1.7B (4-bit)",
           "provider" : "huggingFace",
-          "recommendedRAMBytes" : 8589934592
+          "recommendedRAM" : 8192
         },
         "kind" : "local"
       },
       {
         "entry" : {
           "descriptor" : "Balanced",
-          "downloadSizeBytes" : 1824825759,
+          "downloadSize" : 1740,
           "gated" : false,
           "id" : "llama-3.2-3b-instruct-4bit",
           "license" : "Llama 3.2 Community License",
-          "minimumRAMBytes" : 8589934592,
+          "minimumRAM" : 8192,
           "name" : "Llama 3.2 3B Instruct (4-bit)",
           "provider" : "huggingFace",
-          "recommendedRAMBytes" : 8589934592
+          "recommendedRAM" : 8192
         },
         "kind" : "local"
       },
       {
         "entry" : {
           "descriptor" : "Balanced",
-          "downloadSizeBytes" : 2278972236,
+          "downloadSize" : 2173,
           "gated" : false,
           "id" : "qwen3-4b-instruct-2507-4bit",
           "license" : "Apache 2.0",
-          "minimumRAMBytes" : 8589934592,
+          "minimumRAM" : 8192,
           "name" : "Qwen3 4B Instruct (2507, 4-bit)",
           "provider" : "huggingFace",
-          "recommendedRAMBytes" : 8589934592
+          "recommendedRAM" : 8192
         },
         "kind" : "local"
       },
       {
         "entry" : {
           "descriptor" : "Most capable",
-          "downloadSizeBytes" : 8321086930,
+          "downloadSize" : 7935,
           "gated" : false,
           "id" : "qwen2.5-14b-instruct-4bit",
           "license" : "Apache 2.0",
-          "minimumRAMBytes" : 17179869184,
+          "minimumRAM" : 16384,
           "name" : "Qwen2.5 14B Instruct (4-bit)",
           "provider" : "huggingFace",
-          "recommendedRAMBytes" : 34359738368
+          "recommendedRAM" : 32768
         },
         "kind" : "local"
       },
@@ -98,8 +98,289 @@
         "providerID" : "anthropic"
       }
     ],
+    "packageAuthorizations" : [
+      {
+        "packageSignerPublicKey" : "o1Cr0NvFkBZxRurP8yBO+psAkYZ2LP1EVnu28mm\/lNI=",
+        "reference" : {
+          "capability" : "mlx-text-generation",
+          "packageID" : {
+            "rawValue" : "qwen3-1.7b-4bit"
+          },
+          "version" : {
+            "rawValue" : "1.0.0"
+          }
+        },
+        "revoked" : false,
+        "source" : {
+          "kind" : "huggingFaceFiles",
+          "manifest" : {
+            "assets" : [
+              {
+                "byteCount" : 707,
+                "path" : "added_tokens.json",
+                "sha256" : "wChLWC4UmH+9PVossr0TkIQ3HtmsuuSIgpockAgzxoA="
+              },
+              {
+                "byteCount" : 937,
+                "path" : "config.json",
+                "sha256" : "UHpnASIFJOuLKDQlvwhWqa5PIfQFLlY4lt3WaJlLHcc="
+              },
+              {
+                "byteCount" : 1671853,
+                "path" : "merges.txt",
+                "sha256" : "iDHk8aBERxNA98CoPXvXEwaluGfpX9hw900MUwipBNU="
+              },
+              {
+                "byteCount" : 968080210,
+                "path" : "model.safetensors",
+                "sha256" : "DobZZ35RkyOEnqwbwnLKrohWekgf8YjEMfcL5UPZmV8="
+              },
+              {
+                "byteCount" : 49731,
+                "path" : "model.safetensors.index.json",
+                "sha256" : "HjBY1LpLBOTeNbdEZ3JcvvkP8CIZhAQhjkjyGtyc+hU="
+              },
+              {
+                "byteCount" : 613,
+                "path" : "special_tokens_map.json",
+                "sha256" : "doYudlJmuFqpRZdn4zy68Tlw8yeg6I0cZYRsLd06Hs0="
+              },
+              {
+                "byteCount" : 11422654,
+                "path" : "tokenizer.json",
+                "sha256" : "rrEzB6cazY\/oGGHZStVKtonfdzMYgJ7tPL55S0SS2uQ="
+              },
+              {
+                "byteCount" : 9706,
+                "path" : "tokenizer_config.json",
+                "sha256" : "JTFT0HOM60xmjS7\/lXcU3SvqC1bedyqf3M2Wy\/UX5qA="
+              },
+              {
+                "byteCount" : 2776833,
+                "path" : "vocab.json",
+                "sha256" : "yhDX6fs+0YV13R4neiV5wW0QjjLydDloSvoOELFECRA="
+              }
+            ],
+            "capability" : "mlx-text-generation",
+            "packageID" : "qwen3-1.7b-4bit",
+            "schemaVersion" : 1,
+            "version" : "1.0.0"
+          },
+          "manifestSignature" : "JqyVFWjxr3qJVxeLOHapSU7yIJBbcRTvdAwpyi7b\/mO5KrkQh39hmAtyZX4pDVTYuJ61AXouEvPCjmP4DBM1Aw==",
+          "repository" : "mlx-community\/Qwen3-1.7B-4bit"
+        }
+      },
+      {
+        "packageSignerPublicKey" : "o1Cr0NvFkBZxRurP8yBO+psAkYZ2LP1EVnu28mm\/lNI=",
+        "reference" : {
+          "capability" : "mlx-text-generation",
+          "packageID" : {
+            "rawValue" : "llama-3.2-3b-instruct-4bit"
+          },
+          "version" : {
+            "rawValue" : "1.0.0"
+          }
+        },
+        "revoked" : false,
+        "source" : {
+          "kind" : "huggingFaceFiles",
+          "manifest" : {
+            "assets" : [
+              {
+                "byteCount" : 1122,
+                "path" : "config.json",
+                "sha256" : "xUaSVYXkj0OJDZ3FFQ30\/sc903gNkpYcWs5FGTTMTNY="
+              },
+              {
+                "byteCount" : 1807496278,
+                "path" : "model.safetensors",
+                "sha256" : "114e4OplPMW3YZHsk0x8DVaOlNTkeEZhnx9LxxW3smU="
+              },
+              {
+                "byteCount" : 45720,
+                "path" : "model.safetensors.index.json",
+                "sha256" : "LvMfoLnc2gH4eDWFHV4dWjmrYliuYYr26oZMN0flVuQ="
+              },
+              {
+                "byteCount" : 296,
+                "path" : "special_tokens_map.json",
+                "sha256" : "bzjHNykkj2wScpY4bjzd6W4lRjbMWLQWnT\/TIyjZqOw="
+              },
+              {
+                "byteCount" : 17209920,
+                "path" : "tokenizer.json",
+                "sha256" : "a55Of7Fx+S\/RN7d3zCcUv4fRFXZwCh3Nejmee745U3s="
+              },
+              {
+                "byteCount" : 54558,
+                "path" : "tokenizer_config.json",
+                "sha256" : "Ai1a499HN5mKuX2PMawry0wG3Y6+Woq6K0rO7x5ep9M="
+              }
+            ],
+            "capability" : "mlx-text-generation",
+            "packageID" : "llama-3.2-3b-instruct-4bit",
+            "schemaVersion" : 1,
+            "version" : "1.0.0"
+          },
+          "manifestSignature" : "5FsQPLCOtl2n+jh5Zi5g2DImrsaADReV9onqY8PlIaIBzvAkm9ehbYpUdKZnAxOTWZJcz+z7MkWjmA9zwI2yBQ==",
+          "repository" : "mlx-community\/Llama-3.2-3B-Instruct-4bit"
+        }
+      },
+      {
+        "packageSignerPublicKey" : "o1Cr0NvFkBZxRurP8yBO+psAkYZ2LP1EVnu28mm\/lNI=",
+        "reference" : {
+          "capability" : "mlx-text-generation",
+          "packageID" : {
+            "rawValue" : "qwen3-4b-instruct-2507-4bit"
+          },
+          "version" : {
+            "rawValue" : "1.0.0"
+          }
+        },
+        "revoked" : false,
+        "source" : {
+          "kind" : "huggingFaceFiles",
+          "manifest" : {
+            "assets" : [
+              {
+                "byteCount" : 707,
+                "path" : "added_tokens.json",
+                "sha256" : "wChLWC4UmH+9PVossr0TkIQ3HtmsuuSIgpockAgzxoA="
+              },
+              {
+                "byteCount" : 938,
+                "path" : "config.json",
+                "sha256" : "V0NJ5aNDI2VG\/aVeR0SnbhgfU0GC19xg\/xutfnpQKEk="
+              },
+              {
+                "byteCount" : 238,
+                "path" : "generation_config.json",
+                "sha256" : "g1\/\/41XJQ456Jb4Jmz\/Mqpg1C4NFH5\/S2ZUS508a3kg="
+              },
+              {
+                "byteCount" : 1671853,
+                "path" : "merges.txt",
+                "sha256" : "iDHk8aBERxNA98CoPXvXEwaluGfpX9hw900MUwipBNU="
+              },
+              {
+                "byteCount" : 2263022417,
+                "path" : "model.safetensors",
+                "sha256" : "KnPGwkhgGrkE4DVUir2Oartl6ifctfNC+wqJEOtEFz8="
+              },
+              {
+                "byteCount" : 63964,
+                "path" : "model.safetensors.index.json",
+                "sha256" : "OI2BG4t8JgjdBMzhvLBKi\/cV0ZtCeQiU5tNCf\/Qpp3c="
+              },
+              {
+                "byteCount" : 613,
+                "path" : "special_tokens_map.json",
+                "sha256" : "doYudlJmuFqpRZdn4zy68Tlw8yeg6I0cZYRsLd06Hs0="
+              },
+              {
+                "byteCount" : 11422654,
+                "path" : "tokenizer.json",
+                "sha256" : "rrEzB6cazY\/oGGHZStVKtonfdzMYgJ7tPL55S0SS2uQ="
+              },
+              {
+                "byteCount" : 5440,
+                "path" : "tokenizer_config.json",
+                "sha256" : "Q5fMR36215cVzNIACszWs1MZKPMAKWZYMvobJV8k0rk="
+              },
+              {
+                "byteCount" : 2776833,
+                "path" : "vocab.json",
+                "sha256" : "yhDX6fs+0YV13R4neiV5wW0QjjLydDloSvoOELFECRA="
+              }
+            ],
+            "capability" : "mlx-text-generation",
+            "packageID" : "qwen3-4b-instruct-2507-4bit",
+            "schemaVersion" : 1,
+            "version" : "1.0.0"
+          },
+          "manifestSignature" : "pOHazI8GZRcbrYnwQpeniyH6E7iNzi7DJsDuqDL+Y+B0\/20N6gpM07GQhHObPL1gWYGcTX28ud3YIDVS4l59Bw==",
+          "repository" : "mlx-community\/Qwen3-4B-Instruct-2507-4bit"
+        }
+      },
+      {
+        "packageSignerPublicKey" : "o1Cr0NvFkBZxRurP8yBO+psAkYZ2LP1EVnu28mm\/lNI=",
+        "reference" : {
+          "capability" : "mlx-text-generation",
+          "packageID" : {
+            "rawValue" : "qwen2.5-14b-instruct-4bit"
+          },
+          "version" : {
+            "rawValue" : "1.0.0"
+          }
+        },
+        "revoked" : false,
+        "source" : {
+          "kind" : "huggingFaceFiles",
+          "manifest" : {
+            "assets" : [
+              {
+                "byteCount" : 605,
+                "path" : "added_tokens.json",
+                "sha256" : "WLVLvjb8dS95okonHvZqCggwBUtN+tlL3nV9hRloBgs="
+              },
+              {
+                "byteCount" : 787,
+                "path" : "config.json",
+                "sha256" : "tTLisgV6ImQ\/OD\/03UgRWRpBoSnkT8x6Rbc3IeNu9Nw="
+              },
+              {
+                "byteCount" : 1671853,
+                "path" : "merges.txt",
+                "sha256" : "iDHk8aBERxNA98CoPXvXEwaluGfpX9hw900MUwipBNU="
+              },
+              {
+                "byteCount" : 5353840273,
+                "path" : "model-00001-of-00002.safetensors",
+                "sha256" : "j8k+ag97E23twONOF6irFm2D7TzNHWj3oabyLSDbrqA="
+              },
+              {
+                "byteCount" : 2955653960,
+                "path" : "model-00002-of-00002.safetensors",
+                "sha256" : "KZ2ldxl8pAGbXbbLAdMI6MdXzCLKhZmkg+MiBjzMqNU="
+              },
+              {
+                "byteCount" : 107336,
+                "path" : "model.safetensors.index.json",
+                "sha256" : "Y12YXr8AtqJdq6cbfrpNXsi+eQLBUQSnkxL+lH9EsSE="
+              },
+              {
+                "byteCount" : 613,
+                "path" : "special_tokens_map.json",
+                "sha256" : "doYudlJmuFqpRZdn4zy68Tlw8yeg6I0cZYRsLd06Hs0="
+              },
+              {
+                "byteCount" : 7031673,
+                "path" : "tokenizer.json",
+                "sha256" : "qFBucRG4DG2GNZUaAuqw9OGo5OV3Lag4Rleel7FvYb8="
+              },
+              {
+                "byteCount" : 7308,
+                "path" : "tokenizer_config.json",
+                "sha256" : "98YeMrehfRm\/jnA33LdAeagz5T6pgB8kAIysaEWPA7c="
+              },
+              {
+                "byteCount" : 2776833,
+                "path" : "vocab.json",
+                "sha256" : "yhDX6fs+0YV13R4neiV5wW0QjjLydDloSvoOELFECRA="
+              }
+            ],
+            "capability" : "mlx-text-generation",
+            "packageID" : "qwen2.5-14b-instruct-4bit",
+            "schemaVersion" : 1,
+            "version" : "1.0.0"
+          },
+          "manifestSignature" : "3b6sG3vq7P2BCBGFIo3\/CKlLCx9yUhS2gUiSvOdVuhB7XzwY4Dx3CPkQug\/uoGUe8E+W9xDN7xHHnITPDSCkDQ==",
+          "repository" : "mlx-community\/Qwen2.5-14B-Instruct-4bit"
+        }
+      }
+    ],
     "schemaVersion" : 1,
-    "sequence" : 1
+    "sequence" : 3
   },
-  "signature" : "BAXc6nU5e4ACfYMosQlmw91TTP4L3Ff37nutvDzDxkIQb9gsEJQ87ca2GKOZSwTq7amO\/UXOCFSPwz1CVaHVCw=="
+  "signature" : "DoE9X0b8tsrz8KuzyBHL9NL3gXU3XPInXWojYfwN5LPpVgqd2zt2XQofpCkRbWtJE8hK8S1THmyErxm76OieBA=="
 }
