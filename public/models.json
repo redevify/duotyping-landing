@@ -2,8 +2,8 @@
   "envelopeVersion" : 1,
   "keyID" : "DuoTyping-catalog-2026-09",
   "payload" : {
-    "expiresAt" : "2026-10-14T15:54:18Z",
-    "issuedAt" : "2026-09-14T15:54:18Z",
+    "expiresAt" : "2026-10-14T16:49:56Z",
+    "issuedAt" : "2026-09-14T16:49:56Z",
     "models" : [
       {
         "entry" : {
@@ -167,7 +167,8 @@
             "version" : "1.0.0"
           },
           "manifestSignature" : "JqyVFWjxr3qJVxeLOHapSU7yIJBbcRTvdAwpyi7b\/mO5KrkQh39hmAtyZX4pDVTYuJ61AXouEvPCjmP4DBM1Aw==",
-          "repository" : "mlx-community\/Qwen3-1.7B-4bit"
+          "repository" : "mlx-community\/Qwen3-1.7B-4bit",
+          "revision" : "3b1b1768f8f8cf8351c712464f906e86c2b8269e"
         }
       },
       {
@@ -223,7 +224,8 @@
             "version" : "1.0.0"
           },
           "manifestSignature" : "5FsQPLCOtl2n+jh5Zi5g2DImrsaADReV9onqY8PlIaIBzvAkm9ehbYpUdKZnAxOTWZJcz+z7MkWjmA9zwI2yBQ==",
-          "repository" : "mlx-community\/Llama-3.2-3B-Instruct-4bit"
+          "repository" : "mlx-community\/Llama-3.2-3B-Instruct-4bit",
+          "revision" : "7f0dc925e0d0afb0322d96f9255cfddf2ba5636e"
         }
       },
       {
@@ -299,7 +301,8 @@
             "version" : "1.0.0"
           },
           "manifestSignature" : "pOHazI8GZRcbrYnwQpeniyH6E7iNzi7DJsDuqDL+Y+B0\/20N6gpM07GQhHObPL1gWYGcTX28ud3YIDVS4l59Bw==",
-          "repository" : "mlx-community\/Qwen3-4B-Instruct-2507-4bit"
+          "repository" : "mlx-community\/Qwen3-4B-Instruct-2507-4bit",
+          "revision" : "50d427756c6b1b2fe0c0a10f67fbda1fc8e82c1b"
         }
       },
       {
@@ -375,12 +378,12 @@
             "version" : "1.0.0"
           },
           "manifestSignature" : "3b6sG3vq7P2BCBGFIo3\/CKlLCx9yUhS2gUiSvOdVuhB7XzwY4Dx3CPkQug\/uoGUe8E+W9xDN7xHHnITPDSCkDQ==",
-          "repository" : "mlx-community\/Qwen2.5-14B-Instruct-4bit"
+          "repository" : "mlx-community\/Qwen2.5-14B-Instruct-4bit",
+          "revision" : "dad510143ae5cdb1466778bde3161460f9e9f604"
         }
       }
     ],
-    "schemaVersion" : 1,
-    "sequence" : 3
+    "schemaVersion" : 1
   },
-  "signature" : "DoE9X0b8tsrz8KuzyBHL9NL3gXU3XPInXWojYfwN5LPpVgqd2zt2XQofpCkRbWtJE8hK8S1THmyErxm76OieBA=="
+  "signature" : "9jEJM432yjfxO5+gBL1UadcqxGcTR3t\/krqME5QH9dM17DZFlRgELUXGJzrNl6Rx+tJBrRZpat1frLKjCvA5CA=="
 }
