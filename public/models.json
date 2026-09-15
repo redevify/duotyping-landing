@@ -2,8 +2,48 @@
   "envelopeVersion" : 1,
   "keyID" : "DuoTyping-catalog-2026-09",
   "payload" : {
-    "expiresAt" : "2026-10-14T16:49:56Z",
-    "issuedAt" : "2026-09-14T16:49:56Z",
+    "cloudProviders" : [
+      {
+        "adapterID" : "openai",
+        "apiKeyURL" : "https:\/\/platform.openai.com\/api-keys",
+        "authMethods" : [
+          {
+            "kind" : "apiKey",
+            "label" : "OpenAI API key"
+          },
+          {
+            "kind" : "environment",
+            "variableNames" : [
+              "OPENAI_API_KEY"
+            ]
+          }
+        ],
+        "disabled" : false,
+        "id" : "openai",
+        "name" : "OpenAI"
+      },
+      {
+        "adapterID" : "anthropic",
+        "apiKeyURL" : "https:\/\/console.anthropic.com\/settings\/keys",
+        "authMethods" : [
+          {
+            "kind" : "apiKey",
+            "label" : "Anthropic API key"
+          },
+          {
+            "kind" : "environment",
+            "variableNames" : [
+              "ANTHROPIC_API_KEY"
+            ]
+          }
+        ],
+        "disabled" : false,
+        "id" : "anthropic",
+        "name" : "Anthropic"
+      }
+    ],
+    "expiresAt" : "2026-10-15T03:54:55Z",
+    "issuedAt" : "2026-09-15T03:54:55Z",
     "models" : [
       {
         "entry" : {
@@ -86,12 +126,120 @@
             "text" : true
           },
           "enabled" : true,
+          "family" : "gpt-4.1",
+          "id" : "gpt-4.1-nano",
+          "limit" : {
+
+          },
+          "name" : "GPT-4.1 nano",
+          "providerID" : "openai",
+          "status" : "active"
+        },
+        "providerID" : "openai"
+      },
+      {
+        "kind" : "cloud",
+        "model" : {
+          "capabilities" : {
+            "text" : true
+          },
+          "enabled" : true,
+          "family" : "gpt-4.1",
+          "id" : "gpt-4.1-mini",
+          "limit" : {
+
+          },
+          "name" : "GPT-4.1 mini",
+          "providerID" : "openai",
+          "status" : "active"
+        },
+        "providerID" : "openai"
+      },
+      {
+        "kind" : "cloud",
+        "model" : {
+          "capabilities" : {
+            "text" : true
+          },
+          "enabled" : true,
+          "family" : "gpt-4o",
+          "id" : "gpt-4o",
+          "limit" : {
+
+          },
+          "name" : "GPT-4o",
+          "providerID" : "openai",
+          "status" : "active"
+        },
+        "providerID" : "openai"
+      },
+      {
+        "kind" : "cloud",
+        "model" : {
+          "capabilities" : {
+            "text" : true
+          },
+          "enabled" : true,
+          "family" : "gpt-4.1",
+          "id" : "gpt-4.1",
+          "limit" : {
+
+          },
+          "name" : "GPT-4.1",
+          "providerID" : "openai",
+          "status" : "active"
+        },
+        "providerID" : "openai"
+      },
+      {
+        "kind" : "cloud",
+        "model" : {
+          "capabilities" : {
+            "text" : true
+          },
+          "enabled" : true,
           "family" : "claude",
           "id" : "claude-haiku-4-5-20251001",
           "limit" : {
 
           },
           "name" : "Claude Haiku 4.5",
+          "providerID" : "anthropic",
+          "status" : "active"
+        },
+        "providerID" : "anthropic"
+      },
+      {
+        "kind" : "cloud",
+        "model" : {
+          "capabilities" : {
+            "text" : true
+          },
+          "enabled" : true,
+          "family" : "claude",
+          "id" : "claude-sonnet-5",
+          "limit" : {
+
+          },
+          "name" : "Claude Sonnet 5",
+          "providerID" : "anthropic",
+          "status" : "active"
+        },
+        "providerID" : "anthropic"
+      },
+      {
+        "kind" : "cloud",
+        "model" : {
+          "capabilities" : {
+            "text" : true
+          },
+          "enabled" : true,
+          "family" : "claude",
+          "id" : "claude-opus-5",
+          "limit" : {
+
+          },
+          "name" : "Claude Opus 5",
           "providerID" : "anthropic",
           "status" : "active"
         },
@@ -385,5 +533,5 @@
     ],
     "schemaVersion" : 1
   },
-  "signature" : "9jEJM432yjfxO5+gBL1UadcqxGcTR3t\/krqME5QH9dM17DZFlRgELUXGJzrNl6Rx+tJBrRZpat1frLKjCvA5CA=="
+  "signature" : "jIcTaI4QVZR8\/dqWM0FA0cCBaYozZX\/vXuA6I0G1r9K6dCvZXIavhfeGnf2CzcSIyhAFujZzMhsMLz3OAFzjBA=="
 }
