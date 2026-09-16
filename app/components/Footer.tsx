@@ -1,4 +1,5 @@
 import { useTranslations } from 'next-intl';
+import { DONATE_URL } from '../content';
 import { Logo } from './Logo';
 
 export function Footer() {
@@ -15,6 +16,7 @@ export function Footer() {
           <a href="/privacy" className="text-muted hover:text-ink transition-colors">{t('privacy')}</a>
           <a href="/terms" className="text-muted hover:text-ink transition-colors">{t('terms')}</a>
           <a href="/license" className="text-muted hover:text-ink transition-colors">{t('license')}</a>
+          <a href={DONATE_URL} target="_blank" rel="noopener noreferrer" className="text-muted hover:text-ink transition-colors">{t('donate')}</a>
         </div>
         <div className="flex-1" />
         <span className="text-sm text-muted-2">{t('copyright')}</span>

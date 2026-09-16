@@ -6,3 +6,6 @@ export const HEADLINE_HOLD_MS = 2200;
 export const DEMO_CLEANING_DELAY_MS = 500;
 export const DEMO_CLEAN_DELAY_MS = 2100;
 export const DEMO_NEXT_SCENARIO_DELAY_MS = 8200;
+
+// Swap for your provider's page — see README/provider notes.
+export const DONATE_URL = 'https://ko-fi.com/duotyping';

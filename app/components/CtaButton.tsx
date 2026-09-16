@@ -8,16 +8,22 @@ const VARIANTS = {
 export function CtaButton({
   href,
   variant,
+  external = false,
   className = '',
   children,
 }: {
   href: string;
   variant: 'dark' | 'outline';
+  external?: boolean;
   className?: string;
   children: ReactNode;
 }) {
   return (
-    <a href={href} className={`${VARIANTS[variant]} ${className}`}>
+    <a
+      href={href}
+      {...(external && { target: '_blank', rel: 'noopener noreferrer' })}
+      className={`${VARIANTS[variant]} ${className}`}
+    >
       {children}
     </a>
   );

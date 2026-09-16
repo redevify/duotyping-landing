@@ -7,7 +7,6 @@
     "brand": "DuoTyping",
     "navHow": "How it works",
     "navFeatures": "Features",
-    "navPricing": "Pricing",
     "navFaq": "FAQ",
     "download": "Download free"
   },
@@ -216,30 +215,6 @@
       }
     ]
   },
-  "Pricing": {
-    "heading": "Buy once.",
-    "headingHighlight": "No subscription.",
-    "plans": [
-      {
-        "name": "Free",
-        "price": "$0",
-        "body": "Local detection, a daily suggestion limit, no time limit on the trial.",
-        "cta": "Download"
-      },
-      {
-        "name": "Full license",
-        "price": "$49",
-        "body": "Unlimited local detection, forever, on one computer. No subscription, free updates.",
-        "cta": "Buy once"
-      },
-      {
-        "name": "Cloud AI",
-        "price": "BYO key",
-        "body": "Turn on heavier paraphrasing with your own API key. You pay the provider directly, nothing extra to us.",
-        "cta": "Learn more"
-      }
-    ]
-  },
   "Faq": {
     "heading": "Good",
     "headingHighlight": "questions.",
@@ -276,16 +251,17 @@
   },
   "FinalCta": {
     "heading": "Start writing with more confidence.",
-    "body": "One-time purchase, no subscription. Free to try first, no card.",
+    "body": "DuoTyping is free \u2014 no subscription, no card, no limits. If it saves you a reread or two, you can chip in.",
     "download": "Download free",
-    "seePricing": "See pricing",
-    "footnote": "ONE-TIME PURCHASE \u00b7 100% ON-DEVICE"
+    "footnote": "FREE \u00b7 100% ON-DEVICE",
+    "donate": "Support development"
   },
   "Footer": {
     "brand": "DuoTyping",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "license": "License Agreement",
-    "copyright": "\u00a9 DuoTyping"
+    "copyright": "\u00a9 DuoTyping",
+    "donate": "Donate"
   }
 }

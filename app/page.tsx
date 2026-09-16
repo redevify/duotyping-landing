@@ -17,10 +17,7 @@ const SOFTWARE_APPLICATION_JSON_LD = {
   description: 'DuoTyping catches grammar and tone slips in any app you write in and shows you the fix.',
   url: 'https://duotyping.com',
   applicationCategory: 'ProductivityApplication',
-  offers: [
-    { '@type': 'Offer', name: 'Free', price: '0', priceCurrency: 'USD' },
-    { '@type': 'Offer', name: 'Full license', price: '49', priceCurrency: 'USD' },
-  ],
+  offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
 };
 
 export default function HomePage() {

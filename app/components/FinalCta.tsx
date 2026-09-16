@@ -1,4 +1,5 @@
 import { useTranslations } from 'next-intl';
+import { DONATE_URL } from '../content';
 import { CtaButton } from './CtaButton';
 
 export function FinalCta() {
@@ -11,6 +12,7 @@ export function FinalCta() {
         <p className="mx-auto mb-6.5 text-lg text-muted max-w-[40ch]">{t('body')}</p>
         <div className="flex flex-wrap gap-3 justify-center">
           <CtaButton href="#" variant="dark" className="text-base px-7 py-3.25">{t('download')}</CtaButton>
+          <CtaButton href={DONATE_URL} variant="outline" external className="text-base px-7 py-3.25">{t('donate')}</CtaButton>
         </div>
         <div className="font-mono text-xs tracking-widest text-muted-2 mt-5.5">{t('footnote')}</div>
       </div>
