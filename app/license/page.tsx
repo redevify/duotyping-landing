@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { LegalLayout, LegalSection } from '../components/LegalLayout';
 
 const title = 'License Agreement — DuoTyping';
-const description = 'The perpetual, one-time license terms covering your purchase and use of DuoTyping.';
+const description = 'The free, perpetual license terms covering your installation and use of DuoTyping.';
 
 export const metadata: Metadata = {
   title,
@@ -16,21 +16,25 @@ export const metadata: Metadata = {
 
 export default function LicenseAgreementPage() {
   return (
-    <LegalLayout title="License Agreement" updated="September 8, 2026" currentSlug="license">
-      <LegalSection heading="Perpetual license">
-        <p>Your purchase grants you a perpetual, non-exclusive, non-transferable license to install and use DuoTyping — it is a one-time purchase, not a subscription. You keep the version you bought and its free updates for that major version, indefinitely, even if you stop paying for anything else.</p>
+    <LegalLayout title="License Agreement" updated="September 16, 2026" currentSlug="license">
+      <LegalSection heading="Free license">
+        <p>DuoTyping is free to use. Downloading it grants you a perpetual, non-exclusive, non-transferable license to install and use the app — there is nothing to buy, no subscription, and no license key to keep track of. The version you install keeps working indefinitely.</p>
       </LegalSection>
 
-      <LegalSection heading="Seats">
-        <p>A single-seat license covers use by you, personally, on the computers you own or control. Team and business licensing covering multiple seats is available on request — contact us before deploying across a team.</p>
+      <LegalSection heading="Who it covers">
+        <p>This license covers use by you, personally, on the computers you own or control, and use by your team or business at no charge. You do not need to contact us before deploying it across an organization.</p>
       </LegalSection>
 
       <LegalSection heading="Restrictions">
-        <p>You may not resell, sublicense, or share your license key, reverse-engineer or decompile the app or its bundled local model, or redistribute the app outside of official channels. The license does not transfer with resale of your computer.</p>
+        <p>You may not resell or sublicense the app, reverse-engineer or decompile it or its bundled local model, or redistribute it outside of official channels. Free to use does not mean free to repackage.</p>
       </LegalSection>
 
-      <LegalSection heading="Updates and major versions">
-        <p>Your license includes all updates within the major version you purchased. A future major version (e.g. DuoTyping 2) may be offered as a paid upgrade at a discount for existing license holders — we will always tell you before charging for one, and your current version keeps working either way.</p>
+      <LegalSection heading="Updates">
+        <p>Updates are free. If we ever release a future major version (e.g. DuoTyping 2) on different terms, we will say so clearly beforehand, and the version you already have keeps working either way.</p>
+      </LegalSection>
+
+      <LegalSection heading="Donations">
+        <p>Donations are voluntary and entirely optional. They support continued development; they do not purchase the app, unlock features, or create any obligation on our part. See the <a href="/terms">Terms of Service</a> for details.</p>
       </LegalSection>
 
       <LegalSection heading="Ownership">
@@ -38,7 +42,7 @@ export default function LicenseAgreementPage() {
       </LegalSection>
 
       <LegalSection heading="Termination">
-        <p>We may revoke a license obtained fraudulently or in material breach of these terms. Otherwise, this license does not expire.</p>
+        <p>We may revoke this license in the event of a material breach of these terms. Otherwise, it does not expire.</p>
       </LegalSection>
 
       <LegalSection heading="Related documents">
@@ -46,7 +50,7 @@ export default function LicenseAgreementPage() {
       </LegalSection>
 
       <LegalSection heading="Contact">
-        <p>Licensing questions, including team pricing: <a href="mailto:hello@duotyping.com">hello@duotyping.com</a></p>
+        <p>Licensing questions: <a href="mailto:hello@duotyping.com">hello@duotyping.com</a></p>
       </LegalSection>
     </LegalLayout>
   );
